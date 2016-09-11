@@ -1,0 +1,80 @@
+.button {
+    background-color: #Df664C;
+    border: none;
+    color: white;
+    padding: 10px 10px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+}
+
+.header {
+    position: relative;
+    height: 70px;
+    background-color: #41c3ab;
+}
+
+.icon-container {
+    position: relative;
+    float: left;
+    width: 70px;
+    height: 70px;
+    padding: 2px 4px;
+    overflow: hidden;   
+}
+
+.icon-container img {
+    width: 100%;
+}
+
+.navbar {
+    position: relative;
+    float: right;
+    width: 20%;
+}
+
+.navbar div {
+    position: relative;
+    float: left;
+    width: 100px;
+    padding: 8px;
+    margin: 15px 5px 8px 7px;
+    background-color: #41c3ab;
+    border: 2px solid #FFF;
+    text-align: center;
+}
+.button {
+    background-color: #3a4abb;
+    float: left;
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+}
+
+.maincontainer {
+    position: relative;
+    height: 580px;
+    background-color: darkslategrey;
+}
+
+.container img {
+    position: relative;
+    width: 250px;
+    height: 250px;
+    border: 100px;
+    padding: 10px;
+    float: left;
+    overflow: hidden;
+    margin: 55px;
+}
+}
+
