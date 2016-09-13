@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html>
+<style>
+header {
+    position: relative;
+    height: 350px;
+    background-color: #00ac77;
+}
+.cont {
+    position: relative;
+    height: 565px;
+    background-color: #00ac77;
+}
+
+
+input[type=text], select {
+    width: 30%;
+    padding: 10px 18px;
+    margin: 10px 0px;
+    display: block;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+}
+
+input[type=submit] {
+    width: 7%;
+    background-color: #081f2c;
+    color: white;
+    padding: 12px 20px;
+    margin: 15px 0;
+    border: none;
+    border-radius: 15px;
+    cursor: pointer;
+}
+
+input[type=submit]:hover {
+    background-color: #45a049;
+}
+
+div {
+    border-radius: 5px;
+    background-color: #00ac77;
+    padding: 20px;
+}
+
+</style>
+<head>
+</head>
+<body>
+
+<div class="header">
+</div>
+<div class="cont">
+    <div>
+  <form action="action_page.php">
+    <label for="fname">NAME</label> 
+    <input type="text" id="fname" name="firstname">
+    <label for="lname">Phone Number</label> 
+    <input type="text" id="lname" name="lastname">
+    <label for="Addname">ADDRESS</label>
+    <input type="text" id="Addname" name="addressname"><br>
+    <label for="Date">Select Date:</label> <input type="date" name="Date"><br><br>
+    <input type="submit" value="Submit">
+  </form>
+</div>
+
+</div>
+</body>

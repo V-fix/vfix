@@ -1,8 +1,9 @@
 .button {
-    background-color: #Df664C;
+    background-color: #00ac77;
+    float: left;
     border: none;
     color: white;
-    padding: 10px 10px;
+    padding: 15px 32px;
     text-align: center;
     text-decoration: none;
     display: inline-block;
@@ -14,7 +15,7 @@
 .header {
     position: relative;
     height: 70px;
-    background-color: #41c3ab;
+    background-color: #081f2c;
 }
 
 .icon-container {
@@ -42,12 +43,12 @@
     width: 100px;
     padding: 8px;
     margin: 15px 5px 8px 7px;
-    background-color: #41c3ab;
+    background-color: #00ac77;
     border: 2px solid #FFF;
     text-align: center;
 }
 .button {
-    background-color: #3a4abb;
+    background-color: #00ac77;
     float: left;
     border: none;
     color: white;
@@ -63,7 +64,7 @@
 .maincontainer {
     position: relative;
     height: 580px;
-    background-color: darkslategrey;
+    background-color: #081f2c;
 }
 
 .container img {
@@ -75,6 +76,5 @@
     float: left;
     overflow: hidden;
     margin: 55px;
-}
 }
 
